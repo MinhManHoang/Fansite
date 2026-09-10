@@ -1,0 +1,58 @@
+html {
+    cursor: url(images/ball.png), auto;
+}
+
+body {
+    background-image: url(images/court.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    margin: 0;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    column-gap: 10vw;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+}
+
+.balls {
+    margin: 2vw;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+}
+
+h1, h2 {
+    text-align: center;
+    padding-bottom: 10vh;
+    color: #E5BF11;
+}
+
+.titles {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: black;
+    background-image: url(images/shirt.jpg);
+    background-size: contain;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.overlay:hover {
+ opacity: 1;   
+}
