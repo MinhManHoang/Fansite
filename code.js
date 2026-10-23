@@ -15,6 +15,7 @@ for ( let i = 0; i < allOverlays.length; i++) {
 
 title.onclick = function changeText() {
     title.innerHTML = "Volleyball";
+    title.style.color = "Green";
 }
 
 console.log(title.innerText);
